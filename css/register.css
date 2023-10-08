@@ -1,0 +1,78 @@
+body{
+    text-align: center;
+    background: #7ccfff;
+}
+
+#header{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #0d2463;
+    
+}
+#register h3{
+    color: white;
+}
+#register{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 700px;
+    height: 500px;
+    background-color: #0d2463;
+    opacity: 1;
+    margin: auto;
+    border-radius: 30px; 
+    color: #ffffff;
+}
+input{
+    padding: 15px;
+    outline:none;
+    border-radius: 10px;
+    width: 250px;
+    font-weight: 400;
+    font-size: small;
+    font-display: 5px;
+
+}
+#add{
+    width: 530px;
+}
+#file{
+   
+    z-index: 0px;
+    top: 5px;
+    left: 0px;
+    margin-left: 0%;
+    font-size: 15px;
+    color: #ffffff;
+}
+select{
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 50;
+    width: 555px;
+    box-shadow: #0d2463;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#register p{
+    text-align: left;
+    padding-left: 70px;
+    color: white;
+}
+button{
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 15px;
+    width: 150px;
+    text-decoration: solid;
+    text-decoration: brown;
+    color: rgb(0, 0, 0);
+    background-color: rgb(84, 255, 84);
+    border: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#register a{
+    color: rgb(255, 6, 6);
+}

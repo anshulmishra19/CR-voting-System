@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CR Selection System</title>
+    <link rel="stylesheet" href="../css/register.css">
+
+</head>
+<body>
+    <div id="header">
+        <h1>Class Representive Selection System</h1>
+    </div>
+    <div id="register" >
+    <h3>Registeration</h3>
+    <form action="../api/register.php" method="POST" enctype="multipart/form-data">
+     <input type="text" name="name" placeholder="Enter name">
+     <input type="number" name="mobile" placeholder="Enter Mobile"><br><br>
+     <input type="password" name="password" placeholder="Password">
+     <input type="password" name="cpassword" placeholder="Confirm Password"><br><br>
+     <input id="add" type="text" name="address" placeholder="Address"><br><br>
+     <select name="role">
+        <option value="1">Voter</option>
+        <option value="2">CR Candidate</option>
+     </select><br>
+     <p>Upload Photo    : <input id="file" type="file" name="photo" ></p>
+     
+     
+     <button>Register</button><br><br>
+     Already User? <a href="../index.html">Login here</a>
+    </form>
+</body>
+</html>
